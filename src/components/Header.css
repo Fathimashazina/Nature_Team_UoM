@@ -1,0 +1,17 @@
+.header-wrapper{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    margin-top: 98px;
+}
+.carousel-caption h3,.carousel-caption p{
+    color: white !important;
+}
+.carousel-img{
+    height: 86vh;
+    filter: brightness(80%);
+}
+.container-fluid{
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    padding: 0 !important;
+}

@@ -1,0 +1,35 @@
+
+.vertical-timeline-element-content{
+    box-shadow: 0 0.25em 0.5em 0 rgb(0, 0, 0,0.25) , 0 0.4em 1.25em 0 rgb(0, 0, 0,0.15) !important;
+}
+#description{
+    margin: 1.5em 0 2em 0;
+}
+.overflow-p {
+    overflow: hidden;
+    margin-top: 1.5em;
+    border-radius: 2em;
+    box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.5);
+}
+.projectCoverImage {
+    display: block;
+    height: 250px;
+    width: 100%;
+    transform: scale(1);
+    transition: transform 1s ease;
+}
+
+.projectCoverImage:hover {
+    transform: scale(1.8);
+}
+.vertical-timeline::before{
+    background: black !important;
+}
+
+@media only screen and (max-width:1170px){
+    .vertical-timeline-element-date{
+        display: block !important;
+        float: none !important;
+        margin-top: 1.5em;
+    }
+}

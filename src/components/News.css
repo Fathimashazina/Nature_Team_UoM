@@ -1,0 +1,29 @@
+.item{
+    box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 2em 2em 0 0;
+}
+.item:hover {
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+.item h2,.item p{
+    text-align: center;
+    padding: 10px;
+}
+.owl-item{
+    margin-top: 5rem;
+}
+.owl-nav{
+    display: none;
+}
+.overflow{
+    overflow: hidden;
+    border-radius: 2em 2em 0 0;
+}
+.card-img{
+    height: 250px;
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+.card-img:hover{
+    transform: scale(1.8);
+}
